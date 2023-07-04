@@ -1,0 +1,122 @@
+.Header-sec{
+    background-image: url(../../../public/assets/images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+  min-height: 560px;
+  position: relative;
+}
+
+.Header-sec .overlay{
+    background: linear-gradient(180deg, rgba(16, 20, 24, 0.00) 0%, #101418 100%);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    background: #101418;
+    margin-top: 60px;
+   
+}
+.navbar .logo{
+    float: left;
+  /* margin-top: 0px; */
+}
+.logo img{
+    width: 79px;
+    height: 76px;
+}
+.navbar .link{
+    float: right;
+  list-style-type: none;
+  position: relative;
+    
+}
+/* .navbar ul li{
+    display: inline-block;
+    margin-left: 20px;
+    
+} */
+
+.clear{
+    clear: both;
+}
+ul li{
+    display: inline-block;
+    margin-left: 22px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+  }
+
+   .search{
+    background: url(../../../public/assets/images/search\ .png);
+    width: 24px;
+    height: 24px;
+   position: absolute;
+   top:1px;
+  }
+  .book__now{
+    width: 272px;
+    height: 76px;
+    flex-shrink: 0;
+    background-color: #A08040;
+
+  }
+  .book__now div h2{
+    font-size:1.3rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-top: 25px;
+  }
+
+.book__now div  span{
+    width: 35px;
+    height: 0px;
+  flex-shrink: 0;
+  background-color: #FFFFFF;
+  }
+  .content{
+    text-align: center;
+  }
+  .content h4{
+  color: #FFFCCC;
+  text-align: center;
+  font-size: 45px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 13px;
+  }
+
+  .content p{
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.3%;
+  margin-bottom: 20PX;
+  }
+  .content{
+    margin-top: 130px;
+  }
