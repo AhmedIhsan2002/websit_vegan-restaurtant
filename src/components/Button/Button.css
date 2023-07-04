@@ -1,0 +1,14 @@
+button{
+    width: 215px;
+    height: 55px;
+    border: 1px solid #fff;
+    background: transparent;
+    color:#fff ;
+    font-size: 21px;
+    text-align: center;
+    line-height:48.97%;
+    transition:.6s ease all;
+    cursor: pointer;
+    margin-top:10px;
+   
+}
