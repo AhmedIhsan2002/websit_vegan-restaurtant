@@ -1,0 +1,74 @@
+.blogs-sec{
+    padding: 50px 0px;
+    flex-shrink: 0;
+    background: rgba(16, 20, 24, 0.70);
+    margin-bottom: 27px;
+}
+.boxs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.boxs .box{
+    flex: 1;
+}
+
+.boxs .box:last-child{
+    margin-left: 0px;
+}
+
+.boxs .box .imgblogs{
+    background-image: url(../../../../../public/assets/images/img2.png);
+     background-repeat: no-repeat;
+     object-fit: contain;
+    width: 350px;
+    height: 410px;
+    flex: 3;
+    border: 0px;
+}
+.blogstext{
+    flex: 2;
+}
+.blogstext h4{
+    color: #FFFFFC;
+text-align: center;
+font-size: 27px;
+font-family: Dancing Script;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3.6px;
+margin-bottom: 30px;
+}
+.blogstext span{
+    color: #FFCE6D;
+text-align: center;
+font-size: 25px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 0.64px;
+/* margin-bottom: 40px; */
+}
+.blogstext BUTTON{
+    margin-top: 25px;
+}
+
+@media (max-width:767px){
+   
+    .boxs{
+       flex-direction: column;
+      
+   }
+    .box{
+       margin-bottom: 40px;
+   }
+   .boxs .box .imgblogs{
+    width: 300px;
+    height: 390px;
+   margin-right: 40px;
+    border-color: none;
+   }
+}

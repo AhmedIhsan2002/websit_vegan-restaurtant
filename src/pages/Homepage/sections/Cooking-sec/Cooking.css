@@ -1,0 +1,76 @@
+.Cok-sec{
+    padding: 70px 0px;
+    margin-bottom: 40px;
+}
+.boxs{
+    display: flex;
+}
+.boxs .box{
+    
+    flex: 1;
+}
+.boxs .box .imgboxing{
+    background-image: url(../../../../../public/assets/images/Rectangle\ 34.png);
+    width: 378px;
+    height: 407px;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+.boxs .box .cookinfo{
+    margin-top: 100px;
+}
+.boxs .box .cookinfo h2{
+    color: #FFCE6D;
+    font-size: 28px;
+    font-family: Dancing Script;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 117.3%;
+    letter-spacing: 3.6px;
+    text-align: left;
+}
+ .cookinfo h5{
+    color: #FFFFFC;
+    font-size: 23px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 117.3%;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    text-align: left;
+}
+.boxs .box .cookinfo p{
+    color: #FFFFFC;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    text-align: justify;
+} 
+
+.boxs .box .cookinfo BUTTON{
+   float: left;
+}
+@media (max-width:767px){
+    .boxs .box .cookinfo h5,
+    .boxs .box .cookinfo p ,
+    .boxs .box .cookinfo h2{
+        text-align: center;
+
+    }
+    .boxs .box .cookinfo BUTTON{
+       margin-left:150px;
+    }
+
+    .boxs .box .imgboxing{
+        margin-left: 0px;
+    }
+}
